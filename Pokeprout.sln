@@ -5,11 +5,13 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokeprout.Api", "src\Pokeprout.Api\Pokeprout.Api.csproj", "{9AA5D1CA-FE3D-4E90-87A6-A6FEAEB7F31A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokeprout.Application", "src\Pokeprout.Application\Pokeprout.Application.csproj", "{DFDD09C1-CBBC-490C-8DC6-04386538EE89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokeprout.Application", "src\Pokeprout.Application\Pokeprout.Application.csproj", "{DFDD09C1-CBBC-490C-8DC6-04386538EE89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokeprout.Domain", "src\Pokeprout.Domain\Pokeprout.Domain.csproj", "{401B6FA4-5E8F-45E1-AA23-8E517F9906E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokeprout.Domain", "src\Pokeprout.Domain\Pokeprout.Domain.csproj", "{401B6FA4-5E8F-45E1-AA23-8E517F9906E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokeprout.Infrastructure", "src\Pokeprout.Infrastructure\Pokeprout.Infrastructure.csproj", "{6E14168F-5261-4C82-B68C-50BD9D883257}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokeprout.Infrastructure", "src\Pokeprout.Infrastructure\Pokeprout.Infrastructure.csproj", "{6E14168F-5261-4C82-B68C-50BD9D883257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "test\Tests\Tests.csproj", "{B66B3E2F-E4E2-4B3B-98F6-323C442C5DA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6E14168F-5261-4C82-B68C-50BD9D883257}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E14168F-5261-4C82-B68C-50BD9D883257}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E14168F-5261-4C82-B68C-50BD9D883257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66B3E2F-E4E2-4B3B-98F6-323C442C5DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66B3E2F-E4E2-4B3B-98F6-323C442C5DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66B3E2F-E4E2-4B3B-98F6-323C442C5DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66B3E2F-E4E2-4B3B-98F6-323C442C5DA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

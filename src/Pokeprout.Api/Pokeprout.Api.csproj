@@ -9,4 +9,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Pokeprout.Application\Pokeprout.Application.csproj" />
+    <ProjectReference Include="..\Pokeprout.Infrastructure\Pokeprout.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
