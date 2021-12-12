@@ -27,4 +27,4 @@ jobs:
       run: dotnet test --no-build --verbosity normal
 
     - name: Publish
-      run: dotnet publish --no-build -c Release -o ./publish
+      run: dotnet publish src/Pokeprout.Api/Pokeprout.Api.csproj --no-build -c Release -o ./publish
