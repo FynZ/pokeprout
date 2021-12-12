@@ -3,11 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Pokeprout.Application\Pokeprout.Application.csproj" />
-    <ProjectReference Include="..\Pokeprout.Domain\Pokeprout.Domain.csproj" />
   </ItemGroup>
 
 </Project>
